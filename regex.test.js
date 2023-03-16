@@ -14,7 +14,7 @@ function capitalA(s){
 which end with io (example@example.io) */
 
 function ioEmail(email){
-  return  /^[a-zA-Z]*+@[a-zA-Z]*+\.io$/.test(email);   
+  return  /^[A-Za-z]+@[A-Za-z]+.io$/.test(email);   
 }
 
 /* You have a text that contain image names with their extention you need to write a function to 
